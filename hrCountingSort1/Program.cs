@@ -8,7 +8,7 @@
     {
         static void Main()
         {
-            var numItems = Int32.Parse(Console.ReadLine());
+            Console.ReadLine();
             var counts = new int[100];
             var nums = Console.ReadLine().Split(' ').Select(Int32.Parse);
             foreach (var num in nums)
